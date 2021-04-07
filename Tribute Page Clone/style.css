@@ -31,9 +31,13 @@ body {
   flex-direction: column;
   height: 80vh;
 }
-#image {
+img {
   position: relative;
   top: 10px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 #img-div p {
   text-align: center;
@@ -75,7 +79,7 @@ footer {
   font-size: 2rem;
   transform: rotate(90deg);
   top: 0;
-  margin: 5px 0 0 20px;
+  margin: 5px 0 0 40px;
 }
 #nav-logo p {
   color: #006400;
