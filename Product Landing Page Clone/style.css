@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Lato,serif;
+}
+body{
+    background:#EEEEEE; 
+}
+#header{
+display: flex;
+align-content: center;
+justify-content: center;
+margin: auto;
+
+
+}
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width:100vw;
+    height: 9.1vh;
+}
+li#header-img{
+    width:55vw; 
+    margin: auto;
+
+}
+
+li#nav-link{
+    display: flex;
+    flex-direction: column;
+    width: 16.31vw;
+    text-align: center;
+    margin: auto;
+    align-items:initial;
+    /* width: 12vw; */
+    
+}
+img{
+    width: 300px;
+}
+#nav-link a{
+    text-decoration:none;
+    color: #000000;
+}
+@media (max-width: 645px) {
+    #nav-bar ul {
+    flex-direction: column;
+    height: 15vh;
+    }
+    #header{
+        padding:0;
+        min-width: 335px;
+    }
+
+    li#header-img{
+        width: auto;
+    }
+    img{
+        align-items: stretch;
+    }
+    li#nav-link{
+        width: auto;
+        align-items: stretch;
+    }
+   
+}
+#main-top{
+   display: flex;
+align-content: center;
+justify-content: center;
+margin: auto;
+position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #header-imag{
+    display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+img{
+    width:300px;
+   
+    margin:auto;
+    display: flex;
+    align-self: center;
+}
+nav ul{
+    height: 70px;
+    height: 9.3vh;
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+}
+nav ul li#header-img{
+    width: 60vw;
+}
+
+nav ul li#nav-link {
+   
+   
+    margin:auto;
+    display:inline;
+    
+   
+    color: #000000;
+    font-size: 1em;
+}
+nav ul li a{
+    margin:auto;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+     width: 20vw;
+     text-align: center;
+     padding:auto 0;
+}
+nav ul li a{
+   
+
+}
+@media (max-width: 645px) {
+    nav ul {
+        flex-direction: column;
+        height:16vh;
+    }
+    nav ul li#nav-link, a{
+       width:30vw;
+       height: 5vh;
+       display: inline;
+
+    }
+nav ul li a{
+    width: 20vh;
+}
+    img{
+        height: auto;
+        width:300px;
+        margin:auto;
+        padding-bottom: 10px;
+        display:inline-block;
+        align-content: center;
+
+    }
+} */
